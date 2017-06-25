@@ -1,0 +1,36 @@
+[
+  {
+    "request": {
+      "body": "{}",
+      "headers": {
+        "Authorization": "BASIC",
+        "Content-Type": "application/vnd.api+json"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.getdrip.com/v2/DRIP_ACCOUNT_ID/subscribers/hello@example.com"
+    },
+    "response": {
+      "body": "{\"errors\":[{\"code\":\"not_found_error\",\"message\":\"The resource you requested was not found\"}]}",
+      "headers": {
+        "Cache-Control": "no-cache",
+        "Content-Type": "application/vnd.api+json; charset=utf-8",
+        "Date": "Mon, 26 Jun 2017 03:48:25 GMT",
+        "Server": "nginx",
+        "Strict-Transport-Security": "max-age=31536000",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-RateLimit-Limit": "3600",
+        "X-RateLimit-Remaining": "3590",
+        "X-Request-Id": "b5315585-9640-4be6-8bfe-9ec9e9fe5f6a",
+        "X-Runtime": "0.033165",
+        "X-XSS-Protection": "1; mode=block",
+        "Content-Length": "92",
+        "Connection": "keep-alive"
+      },
+      "status_code": 404,
+      "type": "ok"
+    }
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "request": {
+      "body": "{\"subscribers\":[{\"email\":\"test@test.com\"}]}",
+      "headers": {
+        "Authorization": "BASIC",
+        "Content-Type": "application/vnd.api+json"
+      },
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.getdrip.com/v2/DRIP_ACCOUNT_ID/subscribers"
+    },
+    "response": {
+      "body": "{\"links\":{\"subscribers.account\":\"https://api.getdrip.com/v2/accounts/{subscribers.account}\"},\"subscribers\":[{\"id\":\"yjq4tshtyimxoxikfzsr\",\"href\":\"https://api.getdrip.com/v2/DRIP_ACCOUNT_ID/subscribers/yjq4tshtyimxoxikfzsr\",\"status\":\"active\",\"email\":\"test@test.com\",\"time_zone\":null,\"utc_offset\":0,\"visitor_uuid\":null,\"custom_fields\":{},\"tags\":[\"customer\"],\"created_at\":\"2017-06-25T20:48:48Z\",\"ip_address\":null,\"user_agent\":null,\"lifetime_value\":null,\"original_referrer\":null,\"landing_url\":null,\"prospect\":null,\"base_lead_score\":null,\"lead_score\":null,\"user_id\":null,\"links\":{\"account\":\"DRIP_ACCOUNT_ID\"}}]}",
+      "headers": {
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Content-Type": "application/vnd.api+json; charset=utf-8",
+        "Date": "Mon, 26 Jun 2017 03:48:48 GMT",
+        "ETag": "W/\"c3781c0638905e958e004d6c83f25dfc\"",
+        "Location": "https://api.getdrip.com/v2/DRIP_ACCOUNT_ID/subscribers/yjq4tshtyimxoxikfzsr",
+        "Server": "nginx",
+        "Strict-Transport-Security": "max-age=31536000",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-RateLimit-Limit": "3600",
+        "X-RateLimit-Remaining": "3589",
+        "X-Request-Id": "87a66ec6-dbb2-4369-b893-7bf3a37b59c8",
+        "X-Runtime": "0.055726",
+        "X-XSS-Protection": "1; mode=block",
+        "Content-Length": "589",
+        "Connection": "keep-alive"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "{\"subscribers\":[{\"email\":\"test2@test.com\"}]}",
+      "headers": {
+        "Authorization": "BASIC",
+        "Content-Type": "application/vnd.api+json"
+      },
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.getdrip.com/v2/DRIP_ACCOUNT_ID/subscribers"
+    },
+    "response": {
+      "body": "{\"links\":{\"subscribers.account\":\"https://api.getdrip.com/v2/accounts/{subscribers.account}\"},\"subscribers\":[{\"id\":\"ua9rrkhczqzsv9mgg4ri\",\"href\":\"https://api.getdrip.com/v2/DRIP_ACCOUNT_ID/subscribers/ua9rrkhczqzsv9mgg4ri\",\"status\":\"active\",\"email\":\"test2@test.com\",\"time_zone\":null,\"utc_offset\":0,\"visitor_uuid\":null,\"custom_fields\":{},\"tags\":[],\"created_at\":\"2017-06-25T21:12:43Z\",\"ip_address\":null,\"user_agent\":null,\"lifetime_value\":null,\"original_referrer\":null,\"landing_url\":null,\"prospect\":null,\"base_lead_score\":null,\"lead_score\":null,\"user_id\":null,\"links\":{\"account\":\"DRIP_ACCOUNT_ID\"}}]}",
+      "headers": {
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Content-Type": "application/vnd.api+json; charset=utf-8",
+        "Date": "Mon, 26 Jun 2017 03:48:48 GMT",
+        "ETag": "W/\"a507d5e74ce50689b7e1d35027bac94d\"",
+        "Location": "https://api.getdrip.com/v2/DRIP_ACCOUNT_ID/subscribers/ua9rrkhczqzsv9mgg4ri",
+        "Server": "nginx",
+        "Strict-Transport-Security": "max-age=31536000",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-RateLimit-Limit": "3600",
+        "X-RateLimit-Remaining": "3588",
+        "X-Request-Id": "0c16f87e-cc09-4ee8-9d9b-529646e41fa6",
+        "X-Runtime": "0.047043",
+        "X-XSS-Protection": "1; mode=block",
+        "Content-Length": "580",
+        "Connection": "keep-alive"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

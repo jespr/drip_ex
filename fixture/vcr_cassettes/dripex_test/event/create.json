@@ -1,0 +1,34 @@
+[
+  {
+    "request": {
+      "body": "{\"events\":[{\"email\":\"test@test.com\",\"action\":\"baked a cookie\"}]}",
+      "headers": {
+        "Authorization": "BASIC",
+        "Content-Type": "application/vnd.api+json"
+      },
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.getdrip.com/v2/DRIP_ACCOUNT_ID/events"
+    },
+    "response": {
+      "body": "",
+      "headers": {
+        "Cache-Control": "no-cache",
+        "Date": "Fri, 21 Jul 2017 02:41:52 GMT",
+        "Server": "nginx",
+        "Strict-Transport-Security": "max-age=31536000",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-RateLimit-Limit": "3600",
+        "X-RateLimit-Remaining": "3599",
+        "X-Request-Id": "02976756-1d1c-4781-bb77-bd02eb60accc",
+        "X-Runtime": "0.033053",
+        "X-XSS-Protection": "1; mode=block",
+        "Connection": "keep-alive"
+      },
+      "status_code": 204,
+      "type": "ok"
+    }
+  }
+]
